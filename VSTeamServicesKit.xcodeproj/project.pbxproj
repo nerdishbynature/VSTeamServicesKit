@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23895C141D3CCDC600A0884F /* VSTeamServicesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23895C131D3CCDC600A0884F /* VSTeamServicesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23895C1B1D3CCDC600A0884F /* VSTeamServicesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23895C101D3CCDC600A0884F /* VSTeamServicesKit.framework */; };
+		23895C201D3CCDC600A0884F /* VSTeamServicesKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C1F1D3CCDC600A0884F /* VSTeamServicesKitTests.swift */; };
+		23895C2B1D3CCE1700A0884F /* RequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23895C2A1D3CCE1700A0884F /* RequestKit.framework */; };
+		23895C2E1D3CCE4D00A0884F /* VSTeamServicesKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C2D1D3CCE4D00A0884F /* VSTeamServicesKit.swift */; };
+		23895C301D3CCECD00A0884F /* VSTokenConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C2F1D3CCECD00A0884F /* VSTokenConfiguration.swift */; };
+		23895C321D3CCF5A00A0884F /* VSOAuthConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C311D3CCF5A00A0884F /* VSOAuthConfiguration.swift */; };
+		23895C341D3CCF9400A0884F /* OAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C331D3CCF9400A0884F /* OAuthRouter.swift */; };
+		23895C361D3CCFF000A0884F /* NSURL+URLParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23895C351D3CCFF000A0884F /* NSURL+URLParameters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23895C1C1D3CCDC600A0884F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23895C071D3CCDC500A0884F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23895C0F1D3CCDC600A0884F;
+			remoteInfo = VSTeamServicesKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23895C101D3CCDC600A0884F /* VSTeamServicesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VSTeamServicesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23895C131D3CCDC600A0884F /* VSTeamServicesKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTeamServicesKit.h; sourceTree = "<group>"; };
+		23895C151D3CCDC600A0884F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23895C1A1D3CCDC600A0884F /* VSTeamServicesKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTeamServicesKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23895C1F1D3CCDC600A0884F /* VSTeamServicesKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTeamServicesKitTests.swift; sourceTree = "<group>"; };
+		23895C211D3CCDC600A0884F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23895C2A1D3CCE1700A0884F /* RequestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RequestKit.framework; path = Carthage/Build/iOS/RequestKit.framework; sourceTree = "<group>"; };
+		23895C2D1D3CCE4D00A0884F /* VSTeamServicesKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTeamServicesKit.swift; sourceTree = "<group>"; };
+		23895C2F1D3CCECD00A0884F /* VSTokenConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTokenConfiguration.swift; sourceTree = "<group>"; };
+		23895C311D3CCF5A00A0884F /* VSOAuthConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSOAuthConfiguration.swift; sourceTree = "<group>"; };
+		23895C331D3CCF9400A0884F /* OAuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthRouter.swift; sourceTree = "<group>"; };
+		23895C351D3CCFF000A0884F /* NSURL+URLParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+URLParameters.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23895C0C1D3CCDC600A0884F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23895C2B1D3CCE1700A0884F /* RequestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23895C171D3CCDC600A0884F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23895C1B1D3CCDC600A0884F /* VSTeamServicesKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23895C061D3CCDC500A0884F = {
+			isa = PBXGroup;
+			children = (
+				23895C121D3CCDC600A0884F /* VSTeamServicesKit */,
+				23895C1E1D3CCDC600A0884F /* VSTeamServicesKitTests */,
+				23895C2C1D3CCE1A00A0884F /* Frameworks */,
+				23895C111D3CCDC600A0884F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23895C111D3CCDC600A0884F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23895C101D3CCDC600A0884F /* VSTeamServicesKit.framework */,
+				23895C1A1D3CCDC600A0884F /* VSTeamServicesKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23895C121D3CCDC600A0884F /* VSTeamServicesKit */ = {
+			isa = PBXGroup;
+			children = (
+				23895C131D3CCDC600A0884F /* VSTeamServicesKit.h */,
+				23895C151D3CCDC600A0884F /* Info.plist */,
+				23895C2D1D3CCE4D00A0884F /* VSTeamServicesKit.swift */,
+				23895C2F1D3CCECD00A0884F /* VSTokenConfiguration.swift */,
+				23895C311D3CCF5A00A0884F /* VSOAuthConfiguration.swift */,
+				23895C331D3CCF9400A0884F /* OAuthRouter.swift */,
+				23895C351D3CCFF000A0884F /* NSURL+URLParameters.swift */,
+			);
+			path = VSTeamServicesKit;
+			sourceTree = "<group>";
+		};
+		23895C1E1D3CCDC600A0884F /* VSTeamServicesKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				23895C1F1D3CCDC600A0884F /* VSTeamServicesKitTests.swift */,
+				23895C211D3CCDC600A0884F /* Info.plist */,
+			);
+			path = VSTeamServicesKitTests;
+			sourceTree = "<group>";
+		};
+		23895C2C1D3CCE1A00A0884F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23895C2A1D3CCE1700A0884F /* RequestKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23895C0D1D3CCDC600A0884F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23895C141D3CCDC600A0884F /* VSTeamServicesKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23895C0F1D3CCDC600A0884F /* VSTeamServicesKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23895C241D3CCDC600A0884F /* Build configuration list for PBXNativeTarget "VSTeamServicesKit" */;
+			buildPhases = (
+				23895C0B1D3CCDC600A0884F /* Sources */,
+				23895C0C1D3CCDC600A0884F /* Frameworks */,
+				23895C0D1D3CCDC600A0884F /* Headers */,
+				23895C0E1D3CCDC600A0884F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSTeamServicesKit;
+			productName = VSTeamServicesKit;
+			productReference = 23895C101D3CCDC600A0884F /* VSTeamServicesKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23895C191D3CCDC600A0884F /* VSTeamServicesKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23895C271D3CCDC600A0884F /* Build configuration list for PBXNativeTarget "VSTeamServicesKitTests" */;
+			buildPhases = (
+				23895C161D3CCDC600A0884F /* Sources */,
+				23895C171D3CCDC600A0884F /* Frameworks */,
+				23895C181D3CCDC600A0884F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23895C1D1D3CCDC600A0884F /* PBXTargetDependency */,
+			);
+			name = VSTeamServicesKitTests;
+			productName = VSTeamServicesKitTests;
+			productReference = 23895C1A1D3CCDC600A0884F /* VSTeamServicesKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23895C071D3CCDC500A0884F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "nerdish by nature";
+				TargetAttributes = {
+					23895C0F1D3CCDC600A0884F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					23895C191D3CCDC600A0884F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23895C0A1D3CCDC500A0884F /* Build configuration list for PBXProject "VSTeamServicesKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23895C061D3CCDC500A0884F;
+			productRefGroup = 23895C111D3CCDC600A0884F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23895C0F1D3CCDC600A0884F /* VSTeamServicesKit */,
+				23895C191D3CCDC600A0884F /* VSTeamServicesKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23895C0E1D3CCDC600A0884F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23895C181D3CCDC600A0884F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23895C0B1D3CCDC600A0884F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23895C301D3CCECD00A0884F /* VSTokenConfiguration.swift in Sources */,
+				23895C2E1D3CCE4D00A0884F /* VSTeamServicesKit.swift in Sources */,
+				23895C341D3CCF9400A0884F /* OAuthRouter.swift in Sources */,
+				23895C361D3CCFF000A0884F /* NSURL+URLParameters.swift in Sources */,
+				23895C321D3CCF5A00A0884F /* VSOAuthConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23895C161D3CCDC600A0884F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23895C201D3CCDC600A0884F /* VSTeamServicesKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23895C1D1D3CCDC600A0884F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23895C0F1D3CCDC600A0884F /* VSTeamServicesKit */;
+			targetProxy = 23895C1C1D3CCDC600A0884F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23895C221D3CCDC600A0884F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = VSTeamServicesKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23895C231D3CCDC600A0884F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = VSTeamServicesKit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23895C251D3CCDC600A0884F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VSTeamServicesKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VSTeamServicesKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23895C261D3CCDC600A0884F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VSTeamServicesKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VSTeamServicesKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		23895C281D3CCDC600A0884F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VSTeamServicesKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VSTeamServicesKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23895C291D3CCDC600A0884F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VSTeamServicesKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nerdishbynature.VSTeamServicesKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23895C0A1D3CCDC500A0884F /* Build configuration list for PBXProject "VSTeamServicesKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23895C221D3CCDC600A0884F /* Debug */,
+				23895C231D3CCDC600A0884F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23895C241D3CCDC600A0884F /* Build configuration list for PBXNativeTarget "VSTeamServicesKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23895C251D3CCDC600A0884F /* Debug */,
+				23895C261D3CCDC600A0884F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23895C271D3CCDC600A0884F /* Build configuration list for PBXNativeTarget "VSTeamServicesKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23895C281D3CCDC600A0884F /* Debug */,
+				23895C291D3CCDC600A0884F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23895C071D3CCDC500A0884F /* Project object */;
+}
